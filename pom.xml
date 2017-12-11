@@ -147,7 +147,7 @@
 
 		</plugins>
 
-		<resources>
+		<!-- <resources>
 			<resource>
 				<directory>src/lib</directory>
 				<targetPath>BOOT-INF/lib/</targetPath>
@@ -155,14 +155,14 @@
 					<include>**/*.jar</include>
 				</includes>
 			</resource>
-
-
+		
+		
 			<resource>
 				<directory>src/main/resources</directory>
 				<targetPath>BOOT-INF/classes/</targetPath>
 			</resource>
-
-		</resources>
+		
+		</resources -->>
 
 
 	</build>
